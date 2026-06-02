@@ -1,11 +1,9 @@
-# Github-website
-Website für Informatik
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Philosophische Weisheit - Tiefe Gedanken</title>
+    <title>Moderne Philosophische Weisheit - Existenz & Absurdität</title>
     <style>
         * {
             margin: 0;
@@ -339,131 +337,130 @@ Website für Informatik
 <body>
     <div class="container">
         <header>
-            <h1>Philosophische Weisheit</h1>
-            <p class="subtitle">Zitate zur Introspektion und Tiefe</p>
+            <h1>Moderne Philosophie</h1>
+            <p class="subtitle">Existenz, Absurdität & Tiefe der Seele</p>
         </header>
 
         <div class="content-wrapper">
             <div class="quote-container">
                 <div class="quote-text" id="quoteText">
-                    Erkenne dich selbst.
+                    Der Mensch ist verdammt, frei zu sein.
                 </div>
-                <div class="quote-author" id="quoteAuthor">Sokrates</div>
-                <div class="quote-era" id="quoteEra">Antike, ~470-399 v.Chr.</div>
+                <div class="quote-author" id="quoteAuthor">Jean-Paul Sartre</div>
+                <div class="quote-era" id="quoteEra">Existentialismus, 1905-1980</div>
             </div>
 
             <div class="context-box" id="contextBox">
                 <div class="context-title">Tiefe offenbaren</div>
                 <div class="context-text" id="contextText">
-                    Dieses berühmte Zitat war im Apollon-Tempel in Delphi eingraviert und war Sokrates' Leitprinzip. 
-                    Es fordert zur Selbstreflexion auf und legt nahe, dass die Erkenntnis der eigenen Natur der Anfang aller Weisheit ist.
+                    Sartre argumentiert, dass Freiheit nicht immer befreiend ist. Wir sind verdammt zur Freiheit und müssen die volle Verantwortung für unsere Wahlen tragen. Es gibt keine vorgegebene Essenz - wir selbst erschaffen uns durch unsere Handlungen.
                 </div>
             </div>
 
             <div class="button-container">
-                <button class="btn-primary" id="nextQuoteBtn">✨ Erkenntnis</button>
+                <button class="btn-primary" id="nextQuoteBtn">✨ Nächste Erkenntnis</button>
                 <button class="btn-secondary" id="contextBtn">🔮 Tiefe offenbaren</button>
             </div>
         </div>
 
         <footer>
-            <p>~ Ein Raum für tiefe Gedanken ~</p>
-            <p>Philosophische Zitate zum Nachdenken</p>
+            <p>~ Moderne Weisheit für die existenzielle Krise ~</p>
+            <p>Gedanken zur Absurdität und Existenz</p>
         </footer>
     </div>
 
     <script>
-        // Philosophische Zitate Datenbank
+        // Moderne Philosophische Zitate Datenbank
         const quotes = [
             {
-                quote: "Erkenne dich selbst.",
-                author: "Sokrates",
-                era: "Antike, ~470-399 v.Chr.",
-                context: "Dieses berühmte Zitat war im Apollon-Tempel in Delphi eingraviert und war Sokrates' Leitprinzip. Es fordert zur Selbstreflexion auf und legt nahe, dass die Erkenntnis der eigenen Natur der Anfang aller Weisheit ist."
-            },
-            {
-                quote: "Die Welt entsteht aus einem Traum, und wenn der Traum vergeht, vergeht die Welt.",
-                author: "Platon",
-                era: "Antike, ~428-348 v.Chr.",
-                context: "In Platons Höhlengleichnis wird die Realität mit Schatten verglichen. Dies reflektiert seine Theorie der Ideen und wie unsere Wahrnehmung unsere Wirklichkeit prägt. Die Wirklichkeit ist möglicherweise nicht das, was wir sehen."
-            },
-            {
-                quote: "Das Glück ist nicht etwas Fertiges. Es kommt aus deinen eigenen Handlungen.",
-                author: "Aristoteles",
-                era: "Antike, ~384-322 v.Chr.",
-                context: "Aristoteles lehrte, dass Glück (Eudämonie) durch Tugend und gute Handlungen erreicht wird, nicht durch Glück oder Zufall. Es ist ein aktiver Prozess der Selbstvervollkommnung, nicht ein passiver Zustand."
-            },
-            {
-                quote: "Gott ist tot. Und wir haben ihn getötet.",
-                author: "Friedrich Nietzsche",
-                era: "Moderne, 1844-1900",
-                context: "Nietzsche proklamiert das Ende traditioneller Werte und Wahrheiten. Dies ist nicht Atheismus, sondern ein Aufruf zur Neugestaltung von Werten und der Selbstverwirklichung jenseits konventioneller Moral und Religion."
-            },
-            {
-                quote: "Ich denke, also bin ich.",
-                author: "René Descartes",
-                era: "Aufklärung, 1596-1650",
-                context: "Dies ist Descartes' methodischer Skeptizismus - der einzige unbestreitbare Beweis seiner Existenz ist die Tatsache, dass er denkt. Es markiert den Beginn der modernen Philosophie und der Zentralität des Bewusstseins."
-            },
-            {
-                quote: "Der Mensch ist frei, und daher verdammt, die Last seiner Freiheit zu tragen.",
+                quote: "Der Mensch ist verdammt, frei zu sein.",
                 author: "Jean-Paul Sartre",
                 era: "Existentialismus, 1905-1980",
-                context: "Sartre argumentiert, dass Freiheit nicht immer befreiend ist - wir sind zu Freiheit verurteilt und müssen die Verantwortung für unsere Wahlen und Handlungen tragen. Dies ist die Grundlage der existenzialistischen Ethik."
+                context: "Sartre argumentiert, dass Freiheit nicht immer befreiend ist. Wir sind verdammt zur Freiheit und müssen die volle Verantwortung für unsere Wahlen tragen. Es gibt keine vorgegebene Essenz - wir selbst erschaffen uns durch unsere Handlungen."
             },
             {
-                quote: "Das Untersuchte Leben ist das Leben wert, gelebt zu werden.",
-                author: "Sokrates",
-                era: "Antike, ~470-399 v.Chr.",
-                context: "Sokrates argumentierte, dass wir kontinuierlich unsere Überzeugungen und Handlungen hinterfragen müssen. Ein Leben ohne Selbstreflexion und kritisches Denken ist bedeutungslos und unwürdig."
+                quote: "Das Absurde ist, wenn der menschliche Wille nach Bedeutung auf ein stilles Universum trifft.",
+                author: "Albert Camus",
+                era: "Absurdismus, 1913-1960",
+                context: "Camus beschreibt die menschliche Bedingung als absurd - wir suchen nach Sinn in einem Universum, das keinen hat. Sein Ansatz ist nicht Verzweiflung, sondern Akzeptanz: Wir müssen den Felsen, wie Sisyphus, zum Rollen bringen und dabei glücklich sein."
             },
             {
-                quote: "Die Wahrheit lässt sich nicht sprechen, sie muss erfahren werden.",
-                author: "Blaise Pascal",
-                era: "Aufklärung, 1623-1662",
-                context: "Pascal unterschied zwischen dem Verstand und dem Herzen als Wege zur Wahrheit. Manche tiefste Wahrheiten können nicht rein logisch verstanden werden, sondern müssen gelebt und erfahren werden."
+                quote: "Es gibt keine größere Torheit als die Hoffnung.",
+                author: "Friedrich Nietzsche",
+                era: "Moderne, 1844-1900",
+                context: "Nietzsche kritisiert die Hoffnung, die uns an Illusionen bindet. Sie ist oft eine Flucht vor der Realität. Stattdessen plädiert er für die Bejahung des Lebens, wie es ist - das ist die wahre Stärke: nicht hoffen, sondern handeln."
             },
             {
-                quote: "Der Mensch ist das Maß aller Dinge.",
-                author: "Protagoras",
-                era: "Antike, ~490-420 v.Chr.",
-                context: "Dies ist ein früher Ansatz zum Subjektivismus und Relativismus. Protagoras lehrte, dass die Wahrheit subjektiv ist und von der individuellen Wahrnehmung abhängt - eine radikale Idee für die antike Philosophie."
+                quote: "Die unterdrückte Menge wird eines Tages erwachen und ihre Ketten zerbrechen.",
+                author: "Fjodor Dostojewski",
+                era: "Psychologische Philosophie, 1821-1881",
+                context: "Dostojewski erforscht die tiefsten Seelenabgründe der Menschheit. Er sieht Leiden als zentrales Element der menschlichen Existenz. Seine Werke stellen Fragen über Schuld, Freiheit und das Geheimnis des menschlichen Herzens."
             },
             {
-                quote: "Alles fließt, nichts bleibt.",
-                author: "Heraklit",
-                era: "Antike, ~540-480 v.Chr.",
-                context: "Heraklits Philosophie betont die ständige Veränderung und das Werden. Er argumentierte, dass die Realität nicht statisch ist, sondern ein ewiger Fluss von Werden und Vergehen. Wir können nicht zweimal in denselben Fluss treten."
+                quote: "Der Prozess ist die Quintessenz der modernen Existenz.",
+                author: "Franz Kafka",
+                era: "Absurdistische Modernität, 1883-1924",
+                context: "Kafka zeigt, wie das Individuum in undurchschaubaren, bürokratischen Systemen verloren geht. Seine Charaktere kämpfen gegen unsichtbare Kräfte. Dies ist eine Metapher für die Ohnmacht des modernen Menschen in der Gesellschaft."
             },
             {
-                quote: "Das Leben ohne Liebe ist kein Leben.",
-                author: "Søren Kierkegaard",
-                era: "19. Jahrhundert, 1813-1855",
-                context: "Kierkegaard betonte die zentrale Rolle der Liebe und des Glaubens im menschlichen Dasein. Für ihn war Liebe nicht nur ein Gefühl, sondern ein ethisches und existenzielles Engagement für den anderen."
+                quote: "Wenn man keine Angst vor dem Tod hat, hat man nichts mehr zu fürchten.",
+                author: "Albert Camus",
+                era: "Absurdismus, 1913-1960",
+                context: "Camus sieht in der Überwindung der Angst vor dem Tod die Befreiung. Indem wir die Sterblichkeit akzeptieren, befreien wir uns von den Illusionen, die uns versklaven. Dies ist der erste Schritt zur echten Freiheit."
             },
             {
-                quote: "Der Traum ist das kleine verborgene Tor in den tiefsten und intimsten Heiligtum der Seele.",
-                author: "Carl Jung",
-                era: "20. Jahrhundert, 1875-1961",
-                context: "Jung sah Träume als Fenster zum Unbewussten. Sie sind nicht bloße Zufallsprodukte, sondern bedeutungsvolle Botschaften unserer tieferen Selbst, die Wege zur Selbstentdeckung und Heilung bietet."
+                quote: "Der Übermensch ist die Seele, die am meisten leidet.",
+                author: "Friedrich Nietzsche",
+                era: "Moderne, 1844-1900",
+                context: "Nietzsches Übermensch ist nicht eine brutale Figur, sondern ein Wesen, das über konventionelle Moral hinauswächst. Er erschafft seine eigenen Werte und transformiert Leiden in Schöpfung. Dies erfordert Mut und Integrität."
             },
             {
-                quote: "Wir sind nicht an Land; wir sind auf dem Meer.",
-                author: "Martin Heidegger",
-                era: "Moderne Philosophie, 1889-1976",
-                context: "Heidegger beschreibt die menschliche Existenz als fundamental unsicher und unbegrenzt. Wir befinden uns nicht in einem festen, sicheren Zustand, sondern in einem ständigen Prozess des Werdens und der Möglichkeit."
+                quote: "Das Leben ist das, was uns widerfährt, während wir andere Pläne machen.",
+                author: "Existentialisierte Moderne",
+                era: "20. Jahrhundert",
+                context: "Die Moderne Philosophie erkennt an, dass wir nicht vollständig die Kontrolle haben. Die Wirklichkeit überrascht uns ständig. Der Mensch muss zwischen seinen Plänen und der Wirklichkeit improvisieren - das ist das Wesen des Lebens."
             },
             {
-                quote: "Das größte Glück ist, nicht begehrt zu werden.",
-                author: "Konfuzius",
-                era: "Antike China, ~551-479 v.Chr.",
-                context: "Konfuzius lehrte, dass echtes Glück nicht aus Leidenschaft kommt, sondern aus innerer Harmonie und ethischem Verhalten. Die Begierde bindet uns an materielle Dinge und verstärkt Leid."
+                quote: "Ich bin, daher denke ich vielleicht nicht.",
+                author: "Inspiriert von Nietzsche & Camus",
+                era: "Moderne Inversion, 20. Jahrhundert",
+                context: "Ein moderner Umkehrung von Descartes. Der modernen Existentialisten ist die bloße Existenz radikaler als das Denken. Erst wenn wir existieren, handeln und leiden, beginnen wir zu sein. Denken folgt, es ist nicht das Primäre."
             },
             {
-                quote: "Die Einheit ist die Vielheit betrachtet vom Standpunkt des Unendlichen.",
-                author: "Giordano Bruno",
-                era: "Renaissance, 1548-1600",
-                context: "Bruno, ein früher Pantheist, sah das Universum als eine unendliche Einheit. Dies war eine radikale Idee, die ihn zur Verfolgung durch die Inquisition führte - er fragte nach der wahren Natur der Realität."
+                quote: "Die Wahrheit ist einsam.",
+                author: "Fjodor Dostojewski",
+                era: "Psychologische Philosophie, 1821-1881",
+                context: "Dostojewski zeigt, dass jeder Mensch eine einsame Wahrheit in sich trägt. Echte Kommunikation ist selten. Die Isolation ist ein fundamentales Merkmal menschlicher Existenz. Nur durch diese Einsamkeit können wir uns selbst entdecken."
+            },
+            {
+                quote: "Lasst die Ungerechtigkeit nicht zur Gewohnheit werden.",
+                author: "Albert Camus",
+                era: "Politische Philosophie, 1913-1960",
+                context: "Camus plädiert für Widerstand gegen Ungerechtigkeit, nicht aus idealistischen Gründen, sondern als sittliche Verpflichtung. Der Mensch muss sich gegen die Absurdität der Ungerechtigeit wehren, auch wenn der Kampf aussichtslos scheint."
+            },
+            {
+                quote: "Die Anpassung ist der Tod der Seele.",
+                author: "Friedrich Nietzsche",
+                era: "Moderne Kritik, 1844-1900",
+                context: "Nietzsche warnt vor der Gefahr der Anpassung an Massennormen. Die Herde duldet keine Unterschiedlichkeit. Wahre Individuen müssen ihre eigenen Werte erschaffen, auch wenn dies Einsamkeit und Kampf bedeutet."
+            },
+            {
+                quote: "Im Traum dachte ich, ich lebte. Im Leben bemerkte ich, ich träume.",
+                author: "Inspiriert von Kafka",
+                era: "Moderne Verunsicherung, 20. Jahrhundert",
+                context: "Kafkas Werke hinterfragen die Grenze zwischen Realität und Traum. Das Leben wirkt oft wie ein Albtraum, aus dem wir nicht aufwachen können. Diese Verunsicherung ist zentral für das moderne Bewusstsein."
+            },
+            {
+                quote: "Jeder Mensch ist ein Fremder in dieser Welt.",
+                author: "Albert Camus",
+                era: "Absurdismus, 1913-1960",
+                context: "Camus sagt uns, dass Entfremdung nicht eine Krankheit ist, sondern die normale Bedingung. Wir sind alle Fremde - in der Gesellschaft, im Universum, oft sogar für uns selbst. Dies zu akzeptieren ist der Anfang der Weisheit."
+            },
+            {
+                quote: "Die Rebellion ohne Hoffnung ist die Größe des Menschen.",
+                author: "Albert Camus",
+                era: "Absurdismus, 1913-1960",
+                context: "Camus' ultimativer Trost: Obwohl alles absurd ist und hoffnungslos scheint, der menschliche Geist sich aufzulehnen und zu schaffen - das ist unsere Größe. Wir schaffen Sinn nicht, weil es ihn gibt, sondern weil es unser Wesen ist."
             }
         ];
 
